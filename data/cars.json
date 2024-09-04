@@ -4,7 +4,8 @@
     "make_model": "Honda Accord",
     "year": "2020",
     "price": "$22,000",
-    "thumbnail": "/images/2020_honda_accord.webp"
+    "thumbnail": "/images/2020_honda_accord.webp",
+    "birthday": "1/2/1980"
   },
   {
     "vin": "xxxx",
