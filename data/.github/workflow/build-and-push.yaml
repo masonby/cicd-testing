@@ -25,7 +25,7 @@ jobs:
         with:
           registry: us-docker.pkg.dev # Replace with your GAR region and domain
           username: _json_key
-          password: ${{ secrets.GCP_SA_KEY }}
+          password: ${{ secrets.WIZ_LABS_GCP }}
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
