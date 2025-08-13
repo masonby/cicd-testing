@@ -31,3 +31,4 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
 
 # Define the command to run the app
 CMD ["node", "app.js"]
+ # test workflow
