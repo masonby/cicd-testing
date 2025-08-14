@@ -31,6 +31,6 @@ jobs:
       with:
         context: .
         push: true
-        tags: us-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/cicd-testing/my-image:latest
+        tags: us-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/cicd-testing/test-image:latest
         build-args: |
           # Add any build arguments here if needed
